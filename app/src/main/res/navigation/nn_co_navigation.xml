@@ -2,10 +2,22 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nn_co_navigation"
-    app:startDestination="@id/fetchSearchResultFragment">
+    app:startDestination="@id/fetchResultFragment">
 
     <fragment
-        android:id="@+id/fetchSearchResultFragment"
-        android:name="com.ninetynine.android.exercisev2.ui.searchprops.FetchSearchResultFragment" />
+        android:id="@+id/fetchResultFragment"
+        android:name="com.example.mysampleproject.fragment.FetchListFragment">
+        <action
+            android:id="@+id/action_fetchResultFragment_to_fetchListDetailFragment"
+            app:destination="@+id/fetchListDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fetchListDetailFragment"
+        android:name="com.example.mysampleproject.fragment.FetchListDetailFragment">
+        <argument
+            android:name="FetchDataDetails"
+            app:argType="ListViewResponseItem" />
+    </fragment>
 
 </navigation>

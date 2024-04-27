@@ -1,4 +1,4 @@
-package com.ninetynine.android.exercisev2.network.response
+package com.example.mysampleproject.network.response
 
 
 import com.squareup.moshi.JsonClass

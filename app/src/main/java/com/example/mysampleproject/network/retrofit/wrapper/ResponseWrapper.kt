@@ -1,4 +1,4 @@
-package com.ninetynine.android.exercisev2.network.wrapper
+package com.example.mysampleproject.network.retrofit.wrapper
 
 import retrofit2.Response
 
