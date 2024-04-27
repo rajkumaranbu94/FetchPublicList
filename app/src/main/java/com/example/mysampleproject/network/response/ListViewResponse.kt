@@ -1,0 +1,1 @@
+class ListViewResponse : ArrayList<ListViewResponseItem>()

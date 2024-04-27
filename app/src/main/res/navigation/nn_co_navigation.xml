@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nn_co_navigation"
+    app:startDestination="@id/fetchSearchResultFragment">
+
+    <fragment
+        android:id="@+id/fetchSearchResultFragment"
+        android:name="com.ninetynine.android.exercisev2.ui.searchprops.FetchSearchResultFragment" />
+
+</navigation>
